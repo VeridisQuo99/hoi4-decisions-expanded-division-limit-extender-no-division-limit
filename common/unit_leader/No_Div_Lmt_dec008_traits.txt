@@ -1,0 +1,27 @@
+leader_traits = {
+	no_div_lmt_corps_commander = { 
+		type = land
+		trait_type = personality_trait
+
+		modifier = {
+			max_commander_army_size = 976
+		}
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	# no_div_lmt_corps_field_marshall = { 
+	# 	type = land
+	# 	trait_type = personality_trait
+
+	# 	modifier = {
+	# 		max_army_group_size = 95
+	# 	}
+
+	# 	new_commander_weight = {
+	# 		factor = 0
+	# 	}
+	# }
+}

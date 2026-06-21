@@ -1,0 +1,6 @@
+No_Div_Lmt_008_decisions = {
+	icon = GFX_decision_category_generic_crisis
+	priority = 102 # IEF: Keep Decisions Expanded categories above vanilla categories.
+
+	# picture = GFX_No_Div_Lmt_008_decision_category_pic
+}

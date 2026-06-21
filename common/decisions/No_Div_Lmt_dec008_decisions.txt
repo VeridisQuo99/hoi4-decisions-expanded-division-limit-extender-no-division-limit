@@ -1,0 +1,47 @@
+No_Div_Lmt_008_decisions = { 
+	No_Div_Lmt_008_unit_leader_increase = { #This one increases limits of unit leader
+		icon = GFX_decision_generic_military
+
+		complete_effect = {
+			custom_effect_tooltip = No_Div_Lmt_008_01_tt
+			hidden_effect = {			
+				every_character = {
+					limit = {
+						NOT = { has_character_flag = No_Div_Lmt_008_unit_leader_buff }
+						is_unit_leader = yes
+						is_field_marshal = no
+					}
+
+					set_character_flag = No_Div_Lmt_008_unit_leader_buff
+					add_unit_leader_trait = no_div_lmt_corps_commander
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	No_Div_Lmt_008_unit_leader_decrease = { #This one decreases limits of unit leader
+		icon = GFX_decision_generic_military
+
+		complete_effect = {
+			custom_effect_tooltip = No_Div_Lmt_008_02_tt
+			hidden_effect = {			
+				every_character = {
+					limit = {
+						has_character_flag = No_Div_Lmt_008_unit_leader_buff
+					}
+
+					clr_character_flag = No_Div_Lmt_008_unit_leader_buff
+					remove_unit_leader_trait = no_div_lmt_corps_commander
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

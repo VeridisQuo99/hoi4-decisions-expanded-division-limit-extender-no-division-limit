@@ -1,0 +1,8 @@
+spriteTypes = {	
+	#trait
+	spriteType = {
+		name = "GFX_trait_no_div_lmt_corps_commander"
+		texturefile = "gfx/interface/traits/trait_skilled_staffer.dds"
+		legacy_lazy_load = no
+	}
+}

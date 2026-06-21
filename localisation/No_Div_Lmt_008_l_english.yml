@@ -1,0 +1,18 @@
+﻿l_english:
+ #Decision category
+ No_Div_Lmt_008_decisions:0 "Decisions Expanded: §YDivision Limit Extender§!"
+ No_Div_Lmt_008_decisions_desc:0 "Use these decisions to add or remove the expanded division limit trait for your generals."
+
+ #Decision
+ No_Div_Lmt_008_unit_leader_increase:0 "Increase General Division Capacity"
+ No_Div_Lmt_008_unit_leader_increase_desc:0 ""
+ No_Div_Lmt_008_unit_leader_decrease:0 "Remove General Division Capacity Bonus"
+ No_Div_Lmt_008_unit_leader_decrease_desc:0 ""
+
+ #TOOLTIPS
+ No_Div_Lmt_008_01_tt:0 "§YAdds§! a trait to §Yall generals§! that increases their division capacity to §Y1000§!. §RField marshals are not affected.§! You can use this decision again after recruiting new generals to apply the trait to them."
+ No_Div_Lmt_008_02_tt:0 "§YRemoves§! the expanded division capacity trait from all generals."
+
+ #TRAIT
+ no_div_lmt_corps_commander:0 "Division Limit Extender"
+ no_div_lmt_corps_commander_desc:0 ""
